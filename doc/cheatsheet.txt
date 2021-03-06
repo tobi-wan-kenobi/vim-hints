@@ -36,9 +36,10 @@
 - gd : go to function definition (vim-coc)
 - gr : show references (vim-coc)
 - gi : go to implementation (vim-coc)
-- <leader>cc : comment current selection (nerdcommenter)
-- <leader>cu : uncomment current selection (nerdcommenter)
-- <leader>c<space> : toggle comment state of current selection (nerdcommenter)
+- cc : toggle comment for line (tcomment_vim)
+- c<motion> : toggle comment for motion (tcomment_vim)
+- ci{ : comment everything inside the brackets
+- c (in visual mode) : toggle comment for selection (tcomment_vim)
 
 6. Custom Mappings                                       *cheatsheet-custom*
 
