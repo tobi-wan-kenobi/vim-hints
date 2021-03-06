@@ -1,0 +1,26 @@
+*cheatsheet.txt*	For Neovim version 0.4.4	Last change: 2021 March 6
+*cheatsheet*
+
+===============================================================================
+1. Movement                                               *cheatsheet-movement*
+
+- hjkl : left down up right
+- w/W : beginning of next word (W includes more punctuation)
+- e/E : end of next word (E includes more punctuation)
+
+2. Switching to Insert Mode                               *cheatsheet-insert*
+
+- i/I : insert before cursor/beginning of line
+- a/A : insert after cursor/end of line
+- o/O : insert as new line below/above
+- c<object> : delete <movement> and go to insert mode
+
+3. Objects                                               *cheatsheet-objects*
+
+- w/W : from cursor to end of word (W includes more punctuation)
+- iw/W : inside word -> the word on which the cursor is located
+- aw/W : around word -> the word on which the cursor is located, plus whitespace around
+
+4. Undo/Redo                                             *cheatsheet-undo-redo*
+- u : undo
+- <C-r> : redo
