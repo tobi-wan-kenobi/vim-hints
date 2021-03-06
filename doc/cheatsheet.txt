@@ -22,12 +22,34 @@
 - aw/W : around word -> the word on which the cursor is located, plus whitespace around
 
 4. Undo/Redo                                             *cheatsheet-undo-redo*
+
 - u : undo
 - <C-r> : redo
 
-5. Hints                                                 *cheatsheet-hints*
+5. Plugins                                               *cheatsheet-plugins*
 
-- Move line to line below: ddp
-- Swap characters: xp
-- Swap case: ~
-- Join line with line below: J
+- cs<old><new> : change surrounding brackets, etc. (vim-surround)
+- ds<character> : delete surrounding character (vim-surround)
+- y<object><character> : add surrounding character (vim-surround)
+- <leader> rn : rename (vim-coc)
+- , : view documentation popup (vim-coc)
+- gd : go to function definition (vim-coc)
+- gr : show references (vim-coc)
+- gi : go to implementation (vim-coc)
+
+6. Custom Mappings                                       *cheatsheet-custom*
+
+- bn : next buffer
+- bp : previous buffer
+- tn : next tab
+- <leader>h : show this help
+- <C-t> : new tab
+- <C-p> : open fzf dialog
+
+7. Hints                                                 *cheatsheet-hints*
+
+- Move line to line below : ddp
+- Swap characters : xp
+- Swap case : ~
+- Join line with line below : J
+- Get vim help/manpage : K
