@@ -24,3 +24,10 @@
 4. Undo/Redo                                             *cheatsheet-undo-redo*
 - u : undo
 - <C-r> : redo
+
+5. Hints                                                 *cheatsheet-hints*
+
+- Move line to line below: ddp
+- Swap characters: xp
+- Swap case: ~
+- Join line with line below: J
